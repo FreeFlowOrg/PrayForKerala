@@ -53,6 +53,14 @@
                src="https://d1u4oo4rb13yy8.cloudfront.net/okvhoofxgk-1531817070.jpg" alt="Kerela Flood">
           </div>
       </div>
+      <div class="row">
+        <div class="col-md-12" style="padding:10pt">
+          <form method="POST"  action=""> {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
       </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
